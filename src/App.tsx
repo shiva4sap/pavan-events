@@ -26,7 +26,7 @@ import {
 } from 'lucide-react';
 
 import { translations, Language } from './translations';
-const logo = '/logo.png';
+import logo from './images/leftLogo.png';
 import pavanLogo from './images/pavanLogo.png';
 import bannerImg from './images/img1.jpeg';
 import swamyImg from './images/imgSwamy.jpeg';
@@ -542,8 +542,31 @@ const Navbar = ({ activeSection, setActiveSection, t, language, setLanguage, scr
   ];
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-spiritual-cream/95 backdrop-blur-md shadow-sm">
-      <div className="max-w-full xl:max-w-[95%] mx-auto px-4 xl:px-8 flex justify-between items-center gap-4 py-2 md:py-3">
+    <div className="fixed top-0 left-0 w-full z-50 flex flex-col shadow-sm">
+      {/* Top Header Heading Section */}
+      <div className="w-full bg-spiritual-maroon py-2 sm:py-2.5 px-4 border-b border-spiritual-gold/25 text-center flex flex-col justify-center items-center select-none shadow-md">
+        <h1 
+          className="font-display font-black tracking-[0.1em] sm:tracking-[0.16em] md:tracking-[0.2em] xl:tracking-[0.28em] text-[10px] min-[360px]:text-[11px] sm:text-xs md:text-sm lg:text-[17px] xl:text-xl whitespace-nowrap leading-snug"
+          style={{ 
+            color: 'rgb(246, 228, 30)',
+            textShadow: '0px 1px 2px rgba(0, 0, 0, 0.4)'
+          }}
+        >
+          SRI ANNAMACHARYA SANGEETHA NRUTHYA
+        </h1>
+        <h2 
+          className="font-display font-black tracking-[0.1em] sm:tracking-[0.16em] md:tracking-[0.2em] xl:tracking-[0.28em] text-[10px] min-[360px]:text-[11px] sm:text-xs md:text-sm lg:text-[17px] xl:text-xl whitespace-nowrap leading-none mt-1"
+          style={{ 
+            color: 'rgb(246, 228, 30)',
+            textShadow: '0px 1px 2px rgba(0, 0, 0, 0.4)'
+          }}
+        >
+          KALAA KSHETRAM
+        </h2>
+      </div>
+
+      <nav className="relative w-full bg-spiritual-cream/95 backdrop-blur-md">
+        <div className="max-w-full xl:max-w-[95%] mx-auto px-4 xl:px-8 flex justify-between items-center gap-4 py-2 md:py-3">
         {/* Left Side: Logo + Title + Desktop Menu Items with professional margin & spacing */}
         <div className="flex items-center gap-6 xl:gap-8 2xl:gap-11 flex-shrink-0">
           <div 
@@ -683,6 +706,7 @@ const Navbar = ({ activeSection, setActiveSection, t, language, setLanguage, scr
         )}
       </AnimatePresence>
     </nav>
+  </div>
   );
 };
 
@@ -1664,7 +1688,7 @@ export default function App() {
       setTimeout(() => {
         const element = document.getElementById(elementId);
         if (element) {
-          const yOffset = -80;
+          const yOffset = window.innerWidth >= 768 ? -160 : -120;
           const y = element.getBoundingClientRect().top + window.scrollY + yOffset;
           window.scrollTo({ top: y, behavior: 'smooth' });
         }
@@ -1672,7 +1696,7 @@ export default function App() {
     } else {
       const element = document.getElementById(elementId);
       if (element) {
-        const yOffset = -80;
+        const yOffset = window.innerWidth >= 768 ? -160 : -120;
         const y = element.getBoundingClientRect().top + window.scrollY + yOffset;
         window.scrollTo({ top: y, behavior: 'smooth' });
       }
@@ -1699,7 +1723,7 @@ export default function App() {
         scrollToSection={scrollToSection}
       />
       
-      <main className="pt-[60px] sm:pt-[64px] md:pt-[80px]">
+      <main className="pt-[115px] sm:pt-[124px] md:pt-[148px]">
         <AnimatePresence mode="wait">
           {activeSection === 'fullGallery' ? (
             <motion.div
