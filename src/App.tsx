@@ -26,7 +26,7 @@ import {
 } from 'lucide-react';
 
 import { translations, Language } from './translations';
-import logo from './images/newLogo.png';
+const logo = '/logo.png';
 import pavanLogo from './images/pavanLogo.png';
 import bannerImg from './images/img1.jpeg';
 import swamyImg from './images/imgSwamy.jpeg';
