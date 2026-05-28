@@ -1810,7 +1810,7 @@ export default function App() {
                 <Gallery onViewFull={() => setActiveSection('fullGallery')} onImageClick={setSelectedImage} t={t} />
               </section>
               <section id="previous-archives" className="bg-spiritual-maroon/5 border-t border-b border-spiritual-gold/10">
-                <ArchivesSection language={language} onViewMore={() => setActiveSection('archives')} />
+                <ArchivesSection language={language} onViewMore={() => setActiveSection('fullArchives')} />
               </section>
               <section id="donate" className="border-bottom border-spiritual-gold/10">
                 <Donation t={t} language={language} isSection={true} />
