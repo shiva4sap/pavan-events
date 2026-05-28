@@ -594,7 +594,7 @@ const Navbar = ({ activeSection, setActiveSection, t, language, setLanguage, scr
               <button
                 key={item.id}
                 onClick={() => handleNavClick(item.id)}
-                className={`font-display text-[9.5px] xl:text-[10px] 2xl:text-xs uppercase tracking-normal xl:tracking-wider 2xl:tracking-widest transition-colors relative py-1 ${
+                className={`font-display text-[11px] xl:text-[12.5px] 2xl:text-[13.5px] uppercase tracking-normal xl:tracking-wider 2xl:tracking-widest transition-colors relative py-1 ${
                   activeSection === item.id ? 'text-spiritual-maroon font-semibold' : 'text-spiritual-dark/60 hover:text-spiritual-maroon'
                 }`}
               >
