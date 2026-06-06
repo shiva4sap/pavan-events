@@ -544,7 +544,7 @@ const Navbar = ({ activeSection, setActiveSection, t, language, setLanguage, scr
   return (
     <div className="fixed top-0 left-0 w-full z-50 flex flex-col shadow-sm">
       {/* Top Header Heading Section */}
-      <div className="w-full bg-spiritual-maroon py-2 sm:py-2.5 px-6 sm:px-10 md:px-16 border-b border-spiritual-gold/25 text-center flex flex-col justify-center items-center select-none shadow-md">
+      <div className="w-full bg-spiritual-maroon py-2 sm:py-2.5 px-4 sm:px-10 md:px-16 border-b border-spiritual-gold/25 text-center flex flex-col justify-center items-center select-none shadow-md">
         <h1
           className="font-display font-black tracking-[0.1em] sm:tracking-[0.14em] md:tracking-[0.18em] xl:tracking-[0.22em] whitespace-normal sm:whitespace-nowrap leading-snug text-[11px] min-[360px]:text-[13px] sm:text-[16px] md:text-[20px] lg:text-[26px] xl:text-[32px]"
           style={{
@@ -571,7 +571,7 @@ const Navbar = ({ activeSection, setActiveSection, t, language, setLanguage, scr
               referrerPolicy="no-referrer"
             />
             <div className="flex flex-col select-none flex-shrink-0">
-              <div className="font-display font-black tracking-[0.05em] text-spiritual-maroon uppercase leading-tight transition-all duration-500 text-[10px] sm:text-[12px]/none md:text-[13.5px] lg:text-[14px] xl:text-[14px] 2xl:text-[16px]">
+              <div className="font-display font-black tracking-[0.05em] text-spiritual-maroon uppercase leading-tight transition-all duration-500 text-[7px] sm:text-[9px] md:text-[13px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px]">
                 <div className="block whitespace-nowrap">SRI ANNAMACHARYA</div>
                 <div className="block whitespace-nowrap">SANGEETHA NRUTHYA</div>
                 <div className="block whitespace-nowrap">KALAA KSHETRAM</div>
@@ -698,13 +698,13 @@ const Navbar = ({ activeSection, setActiveSection, t, language, setLanguage, scr
       </AnimatePresence>
     </nav>
     {/* Live Program Banner */}
-    <div className="w-full bg-amber-800 py-3 px-4 flex items-center justify-center gap-3 text-white text-center border-t border-amber-600/40">
+    <div className="w-full bg-amber-800 py-2 md:py-3 px-3 md:px-6 flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-3 text-white text-center border-t border-amber-600/40">
       <span className="flex items-center gap-1.5 flex-shrink-0">
-        <span className="relative flex h-2.5 w-2.5">
+        <span className="relative flex h-2 w-2 md:h-2.5 md:w-2.5">
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
-          <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-white"></span>
+          <span className="relative inline-flex rounded-full h-2 w-2 md:h-2.5 md:w-2.5 bg-white"></span>
         </span>
-        <span className="font-display font-bold uppercase tracking-widest text-[20px] sm:text-[24px] md:text-[28px] whitespace-nowrap">
+        <span className="font-display font-bold uppercase tracking-widest text-[11px] sm:text-[14px] md:text-[18px] lg:text-[22px] whitespace-nowrap">
           🔴 LIVE NOW
         </span>
       </span>
@@ -713,7 +713,7 @@ const Navbar = ({ activeSection, setActiveSection, t, language, setLanguage, scr
         href="https://www.youtube.com/live/c308wXOC46o"
         target="_blank"
         rel="noopener noreferrer"
-        className="font-display text-[20px] sm:text-[24px] md:text-[28px] font-semibold underline underline-offset-2 hover:text-yellow-200 transition-colors tracking-wide"
+        className="font-display text-[11px] sm:text-[14px] md:text-[18px] lg:text-[22px] font-semibold underline underline-offset-2 hover:text-yellow-200 transition-colors tracking-wide leading-snug"
       >
         22nd Sri Venkateswara Swamy Kalyana Mahotsavam — Watch Live →
       </a>
@@ -1735,7 +1735,7 @@ export default function App() {
         scrollToSection={scrollToSection}
       />
       
-      <main className="pt-[150px] sm:pt-[162px] md:pt-[188px]">
+      <main className="pt-[178px] sm:pt-[170px] md:pt-[200px] lg:pt-[210px]">
         <AnimatePresence mode="wait">
           {activeSection === 'fullGallery' ? (
             <motion.div
