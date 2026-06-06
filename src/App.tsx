@@ -1486,10 +1486,18 @@ const Footer = ({ t, scrollToSection }: { t: any, scrollToSection: (id: string) 
 
           <div>
             <h4 className="font-display text-[10px] md:text-xs uppercase tracking-widest text-spiritual-gold mb-6 md:mb-10 font-bold">{t.footer.contact}</h4>
-            <ul className="space-y-4 md:space-y-6 text-sm md:text-base text-spiritual-cream/60">
+            <ul className="space-y-4 md:space-y-6 text-sm md:text-base text-spiritual-cream/60 mb-6 md:mb-8">
               <li className="flex items-center gap-3 md:gap-4"><Phone size={14} className="text-spiritual-gold md:w-4 md:h-4" /> +91 9866695051</li>
               <li className="flex items-center gap-3 md:gap-4"><Mail size={14} className="text-spiritual-gold md:w-4 md:h-4" /> admin@annamayyapavan.org.in</li>
             </ul>
+            <div className="mt-6 md:mt-8">
+              <img 
+                src="/OKB%20INFOTECH%20DIGITAL%20PARTNER%20BANNER%20(1).png" 
+                alt="OKB Infotech Digital Partner" 
+                className="w-[125px] h-[125px] object-contain hover:scale-[1.02] transition-transform duration-300"
+                referrerPolicy="no-referrer"
+              />
+            </div>
           </div>
 
           <div>

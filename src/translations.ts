@@ -45,10 +45,10 @@ export const translations = {
     story: {
       badge: "Our Story",
       milestonesTitle: "Significant Milestones:",
-      milestonesDesc: "Over a decade of dedicated service in spreading devotion through singing and puja experience. Having met many famous personalities and spiritual leaders, Shri Pavan continues to spread the essence of Sanatana Dharma across the globe through his soulful renditions.",
-      milestonesQuote: "\"A journey of ten years marked by deep spiritual growth, countless divine concerts, and a steadfast commitment to preserving our sacred traditions.\"",
+      milestonesDesc: "Over two decades of dedicated service in spreading devotion through singing and puja experience. Having met many famous personalities and spiritual leaders, Shri Pavan continues to spread the essence of Sanatana Dharma across the globe through his soulful renditions.",
+      milestonesQuote: "\"A journey of two decades marked by deep spiritual growth, countless divine concerts, and a steadfast commitment to preserving our sacred traditions.\"",
       missionTitle: "Mission",
-      missionDesc: "To promote the timeless beauty and spiritual essence of Saint Tyagaraja's music, and to foster a global community united by the shared appreciation of Carnatic heritage.",
+      missionDesc: "To promote the timeless beauty and spiritual essence of Saint Annamayya's music, and to foster a global community united by the shared appreciation of Carnatic heritage.",
       visionTitle: "Vision",
       visionDesc: "To be a leading platform for the celebration and preservation of Carnatic music, inspiring future generations of musicians and listeners through innovative and inclusive events."
     },
@@ -104,7 +104,7 @@ export const translations = {
     about: {
       badge: "The Visionary",
       name: "Annamayya Pavan",
-      desc1: "Shri Annamayya Pavan is a dedicated spiritual singer and teacher who has spent over a decade mastering the art of Sankeertana. His mission is to bring the soulful compositions of Saint Annamacharya to every household, fostering a deep sense of devotion and cultural pride.",
+      desc1: "Shri Annamayya Pavan is a dedicated spiritual singer and teacher who has spent over two decades mastering the art of Sankeertana. His mission is to bring the soulful compositions of Saint Annamacharya to every household, fostering a deep sense of devotion and cultural pride.",
       desc2: "Through his unique teaching style and profound understanding of spiritual traditions, he has guided thousands of seekers on the path of Bhakti, making the divine accessible through music.",
       affiliations: "Affiliations",
       affiliationsList: [
@@ -187,10 +187,10 @@ export const translations = {
     story: {
       badge: "మా కథ",
       milestonesTitle: "ముఖ్యమైన మైలురాళ్లు:",
-      milestonesDesc: "సంకీర్తన మరియు పూజా కార్యక్రమాల ద్వారా భక్తిని వ్యాప్తి చేయడంలో దశాబ్ద కాలంగా అంకితభావంతో సేవ చేస్తున్నారు. అనేకమంది ప్రముఖులను మరియు ఆధ్యాత్మిక నాయకులను కలుసుకుని, శ్రీ పవన్ తన మధుర గానం ద్వారా సనాతన ధర్మం యొక్క సారాంశాన్ని ప్రపంచవ్యాప్తంగా వ్యాప్తి చేస్తున్నారు.",
-      milestonesQuote: "\"పదేళ్ల ప్రయాణం లోతైన ఆధ్యాత్మిక ఎదుగుదల, లెక్కలేనన్ని దివ్య కచేరీలు మరియు మన పవిత్ర సంప్రదాయాలను కాపాడాలనే అచంచలమైన నిబద్ధతతో కూడుకున్నది.\"",
+      milestonesDesc: "సంకీర్తన మరియు పూజా కార్యక్రమాల ద్వారా భక్తిని వ్యాప్తి చేయడంలో రెండు దశాబ్దాలుగా అంకితభావంతో సేవ చేస్తున్నారు. అనేకమంది ప్రముఖులను మరియు ఆధ్యాత్మిక నాయకులను కలుసుకుని, శ్రీ పవన్ తన మధుర గానం ద్వారా సనాతన ధర్మం యొక్క సారాంశాన్ని ప్రపంచవ్యాప్తంగా వ్యాప్తి చేస్తున్నారు.",
+      milestonesQuote: "\"ఇరవై ఏళ్ల ప్రయాణం లోతైన ఆధ్యాత్మిక ఎదుగుదల, లెక్కలేనన్ని దివ్య కచేరీలు మరియు మన పవిత్ర సంప్రదాయాలను కాపాడాలనే అచంచలమైన నిబద్ధతతో కూడుకున్నది.\"",
       missionTitle: "లక్ష్యం",
-      missionDesc: "సెయింట్ త్యాగరాజ సంగీతం యొక్క శాశ్వతమైన అందం మరియు ఆధ్యాత్మిక సారాంశాన్ని ప్రోత్సహించడం మరియు కర్ణాటక వారసత్వం పట్ల ఉమ్మడి ప్రశంసలతో ఏకమైన ప్రపంచ సమాజాన్ని పెంపొందించడం.",
+      missionDesc: "సెయింట్ అన్నమయ్య సంగీతం యొక్క శాశ్వతమైన అందం మరియు ఆధ్యాత్మిక సారాంశాన్ని ప్రోత్సహించడం మరియు కర్ణాటక వారసత్వం పట్ల ఉమ్మడి ప్రశంసలతో ఏకమైన ప్రపంచ సమాజాన్ని పెంపొందించడం.",
       visionTitle: "దార్శనికత",
       visionDesc: "కర్ణాటక సంగీత వేడుకలు మరియు పరిరక్షణకు ప్రముఖ వేదికగా ఉండటం, వినూత్న మరియు సమగ్ర కార్యక్రమాల ద్వారా భవిష్యత్తు తరాల సంగీతకారులను మరియు శ్రోతలను ప్రేరేపించడం."
     },
@@ -246,7 +246,7 @@ export const translations = {
     about: {
       badge: "దార్శనికుడు",
       name: "అన్నమయ్య పవన్",
-      desc1: "శ్రీ అన్నమయ్య పవన్ ఒక అంకితభావం గల ఆధ్యాత్మిక గాయకుడు మరియు ఉపాధ్యాయుడు, ఆయన సంకీర్తన కళలో దశాబ్దానికి పైగా అనుభవం గడించారు. అన్నమాచార్యుల మధుర కీర్తనలను ప్రతి ఇంటికి చేరవేయడం, భక్తి మరియు సాంస్కృతిక గర్వాన్ని పెంపొందించడం ఆయన లక్ష్యం.",
+      desc1: "శ్రీ అన్నమయ్య పవన్ ఒక అంకితభావం గల ఆధ్యాత్మిక గాయకుడు మరియు ఉపాధ్యాయుడు, ఆయన సంకీర్తన కళలో రెండు దశాబ్దాలకు పైగా అనుభవం గడించారు. అన్నమాచార్యుల మధుర కీర్తనలను ప్రతి ఇంటికి చేరవేయడం, భక్తి మరియు సాంస్కృతిక గర్వాన్ని పెంపొందించడం ఆయన లక్ష్యం.",
       desc2: "ఆయన ప్రత్యేక బోధనా శైలి మరియు ఆధ్యాత్మిక సంప్రదాయాలపై లోతైన అవగాహన ద్వారా, ఆయన వేలాది మంది అన్వేషకులను భక్తి మార్గంలో నడిపించారు, సంగీతం ద్వారా దైవాన్ని చేరువ చేశారు.",
       affiliations: "అనుబంధాలు",
       affiliationsList: [
