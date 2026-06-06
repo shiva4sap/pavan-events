@@ -546,7 +546,7 @@ const Navbar = ({ activeSection, setActiveSection, t, language, setLanguage, scr
       {/* Top Header Heading Section */}
       <div className="w-full bg-spiritual-maroon py-2 sm:py-2.5 px-6 sm:px-10 md:px-16 border-b border-spiritual-gold/25 text-center flex flex-col justify-center items-center select-none shadow-md">
         <h1
-          className="font-display font-black tracking-[0.1em] sm:tracking-[0.14em] md:tracking-[0.18em] xl:tracking-[0.22em] whitespace-normal sm:whitespace-nowrap leading-snug text-[13px] min-[360px]:text-[15px] sm:text-[18px] md:text-[22px] lg:text-[28px] xl:text-[34px]"
+          className="font-display font-black tracking-[0.1em] sm:tracking-[0.14em] md:tracking-[0.18em] xl:tracking-[0.22em] whitespace-normal sm:whitespace-nowrap leading-snug text-[11px] min-[360px]:text-[13px] sm:text-[16px] md:text-[20px] lg:text-[26px] xl:text-[32px]"
           style={{
             color: 'rgb(246, 228, 30)',
             textShadow: '0px 1px 2px rgba(0, 0, 0, 0.4)'
