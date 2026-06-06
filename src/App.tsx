@@ -544,25 +544,16 @@ const Navbar = ({ activeSection, setActiveSection, t, language, setLanguage, scr
   return (
     <div className="fixed top-0 left-0 w-full z-50 flex flex-col shadow-sm">
       {/* Top Header Heading Section */}
-      <div className="w-full bg-spiritual-maroon py-2 sm:py-2.5 px-4 border-b border-spiritual-gold/25 text-center flex flex-col justify-center items-center select-none shadow-md">
-        <h1 
-          className="font-display font-black tracking-[0.1em] sm:tracking-[0.16em] md:tracking-[0.2em] xl:tracking-[0.28em] text-[10px] min-[360px]:text-[11px] sm:text-xs md:text-sm lg:text-[17px] xl:text-xl whitespace-nowrap leading-snug"
-          style={{ 
+      <div className="w-full bg-spiritual-maroon py-2 sm:py-2.5 px-6 sm:px-10 md:px-16 border-b border-spiritual-gold/25 text-center flex flex-col justify-center items-center select-none shadow-md">
+        <h1
+          className="font-display font-black tracking-[0.1em] sm:tracking-[0.14em] md:tracking-[0.18em] xl:tracking-[0.22em] whitespace-normal sm:whitespace-nowrap leading-snug text-[13px] min-[360px]:text-[15px] sm:text-[18px] md:text-[22px] lg:text-[28px] xl:text-[34px]"
+          style={{
             color: 'rgb(246, 228, 30)',
             textShadow: '0px 1px 2px rgba(0, 0, 0, 0.4)'
           }}
         >
-          SRI ANNAMACHARYA SANGEETHA NRUTHYA
+          SRI ANNAMACHARYA SANGEETHA NRUTHYA KALAA KSHETRAM
         </h1>
-        <h2 
-          className="font-display font-black tracking-[0.1em] sm:tracking-[0.16em] md:tracking-[0.2em] xl:tracking-[0.28em] text-[10px] min-[360px]:text-[11px] sm:text-xs md:text-sm lg:text-[17px] xl:text-xl whitespace-nowrap leading-none mt-1"
-          style={{ 
-            color: 'rgb(246, 228, 30)',
-            textShadow: '0px 1px 2px rgba(0, 0, 0, 0.4)'
-          }}
-        >
-          KALAA KSHETRAM
-        </h2>
       </div>
 
       <nav className="relative w-full bg-spiritual-cream/95 backdrop-blur-md">
@@ -580,7 +571,7 @@ const Navbar = ({ activeSection, setActiveSection, t, language, setLanguage, scr
               referrerPolicy="no-referrer"
             />
             <div className="flex flex-col select-none flex-shrink-0">
-              <div className="font-display font-black tracking-[0.05em] text-spiritual-maroon uppercase leading-tight transition-all duration-500 text-[8px] sm:text-[9.5px]/none md:text-[10.5px] lg:text-[11px] xl:text-[11px] 2xl:text-[13px]">
+              <div className="font-display font-black tracking-[0.05em] text-spiritual-maroon uppercase leading-tight transition-all duration-500 text-[10px] sm:text-[12px]/none md:text-[13.5px] lg:text-[14px] xl:text-[14px] 2xl:text-[16px]">
                 <div className="block whitespace-nowrap">SRI ANNAMACHARYA</div>
                 <div className="block whitespace-nowrap">SANGEETHA NRUTHYA</div>
                 <div className="block whitespace-nowrap">KALAA KSHETRAM</div>
@@ -643,7 +634,7 @@ const Navbar = ({ activeSection, setActiveSection, t, language, setLanguage, scr
               referrerPolicy="no-referrer"
               onClick={() => handleNavClick('home')}
             />
-            <span className="uppercase text-spiritual-gold font-bold mt-1 text-center whitespace-nowrap transition-all duration-500 text-[6.5px] xl:text-[7.5px] 2xl:text-[8px] tracking-[0.08em] xl:tracking-[0.1em]">
+            <span className="uppercase text-spiritual-gold font-bold mt-1 text-center whitespace-nowrap transition-all duration-500 text-[9px] xl:text-[10px] 2xl:text-[11px] tracking-[0.08em] xl:tracking-[0.1em]">
               {language === 'en' ? 'OM NAMO VENKATESAYA' : 'ఓం నమో వేంకటేశాయ'}
             </span>
           </div>
@@ -1367,7 +1358,7 @@ const Contact = ({ t }: { t: any }) => {
               <Phone size={24} />
             </div>
             <p className="text-[10px] sm:text-xs uppercase tracking-widest text-spiritual-gold font-bold mb-2">{t.contact.callUs}</p>
-            <p className="font-display text-base sm:text-lg md:text-2xl font-semibold">+91 73311 27051</p>
+            <p className="font-display text-base sm:text-lg md:text-2xl font-semibold">+91 9866695051</p>
           </motion.div>
 
           {/* Email Card */}
@@ -1475,7 +1466,7 @@ const Footer = ({ t, scrollToSection }: { t: any, scrollToSection: (id: string) 
           <div>
             <h4 className="font-display text-[10px] md:text-xs uppercase tracking-widest text-spiritual-gold mb-6 md:mb-10 font-bold">{t.footer.contact}</h4>
             <ul className="space-y-4 md:space-y-6 text-sm md:text-base text-spiritual-cream/60">
-              <li className="flex items-center gap-3 md:gap-4"><Phone size={14} className="text-spiritual-gold md:w-4 md:h-4" /> +91 73311 27051</li>
+              <li className="flex items-center gap-3 md:gap-4"><Phone size={14} className="text-spiritual-gold md:w-4 md:h-4" /> +91 9866695051</li>
               <li className="flex items-center gap-3 md:gap-4"><Mail size={14} className="text-spiritual-gold md:w-4 md:h-4" /> admin@annamayyapavan.org.in</li>
             </ul>
           </div>
