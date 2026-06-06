@@ -697,6 +697,27 @@ const Navbar = ({ activeSection, setActiveSection, t, language, setLanguage, scr
         )}
       </AnimatePresence>
     </nav>
+    {/* Live Program Banner */}
+    <div className="w-full bg-amber-800 py-3 px-4 flex items-center justify-center gap-3 text-white text-center border-t border-amber-600/40">
+      <span className="flex items-center gap-1.5 flex-shrink-0">
+        <span className="relative flex h-2.5 w-2.5">
+          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+          <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-white"></span>
+        </span>
+        <span className="font-display font-bold uppercase tracking-widest text-[20px] sm:text-[24px] md:text-[28px] whitespace-nowrap">
+          🔴 LIVE NOW
+        </span>
+      </span>
+      <span className="text-white/60 hidden sm:inline">|</span>
+      <a
+        href="https://www.youtube.com/live/c308wXOC46o"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="font-display text-[20px] sm:text-[24px] md:text-[28px] font-semibold underline underline-offset-2 hover:text-yellow-200 transition-colors tracking-wide"
+      >
+        22nd Sri Venkateswara Swamy Kalyana Mahotsavam — Watch Live →
+      </a>
+    </div>
   </div>
   );
 };
@@ -1714,7 +1735,7 @@ export default function App() {
         scrollToSection={scrollToSection}
       />
       
-      <main className="pt-[115px] sm:pt-[124px] md:pt-[148px]">
+      <main className="pt-[150px] sm:pt-[162px] md:pt-[188px]">
         <AnimatePresence mode="wait">
           {activeSection === 'fullGallery' ? (
             <motion.div
